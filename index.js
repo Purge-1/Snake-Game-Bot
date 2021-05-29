@@ -241,7 +241,7 @@ client.on('message', message => {
       .setDescription("This is a fun little bot that lets you play the classic game of snake inside of Discord! (It's really more of a patience test because of how laggy it is.)")
       .addFields(
         {name: "Commands", value: `${codeBlock(prefix + "start")} starts a new game\n${codeBlock(prefix+"exit")} exits the current game\n${codeBlock(prefix+"leaderboard")} displays the top scores\n`},
-        {name: "Other Information", value: "▫Made with discord.js\n▫Source code: Posted Soon"}
+        {name: "Other Information", value: "▫Made with discord.js\n▫Source code: https://github.com/Purge-1/Snake-Game-Bot"}
       )
       .setFooter("Made by Purge#1000")
     )
